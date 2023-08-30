@@ -5,25 +5,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .container {
-  background: #fdf0e9;
-  min-height: 100vh;
-}
-.container-1 {
-  padding: 161px 131px 140px 135px;
+  padding: 161px 131px 108px 135px;
 }
 
-.container-1 ul {
-  display: flex;
+.container-1 ul{
+    display: flex;
 }
-.container-1 ul li {
-  width: 33.33%;
-  padding: 45px 0 38px 48px;
-  list-style-type: none;
-  border: 1px solid #f3d1bf;
+.container-1 ul li{
+    width: 33.33%;
+    padding: 45px 0 38px 48px;
+list-style-type: none;
+border: 1px solid #f3d1bf;
 }
 
-.container-1 ul h1 {
+.container-1 ul  h1 {
   margin-bottom: 13px;
   color: var(--text-dark, #391400);
   font-feature-settings: "clig" off, "liga" off;
