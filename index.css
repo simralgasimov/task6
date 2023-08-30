@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contier{
+    padding: 161px 131px 108px 135px;
+border: 1px solid #F3D1BF;
+
+}
+
+.box{
+    display: flex;
+    width: 391px;
+height: 176px;
+
+}
+
+.box .box-1{
+    
+    padding: 45px 144px 38px 48px;
+    list-style: none;
+border: 1px solid #F3D1BF;
+}
+
+.box .box-2{
+    padding: 45px 173px 38px 48px;
+    list-style: none;
+    border: 1px solid #F3D1BF;  
+}
+
+.box .box-3{
+    padding: 45px 160px 38px 48px;
+    list-style: none;
+    border: 1px solid #F3D1BF;    
+}
+
+.box h1{
+    margin-bottom: 13px;
+    color: var(--text-dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+
+
+font-family: Epilogue;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 48px; 
+}
+
+.box ,.box-1 p{
+   
+    color: var(--text-dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
